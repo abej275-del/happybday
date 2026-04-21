@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000; /* Pure black background */
+    font-family: 'Parisienne', cursive;
+    overflow: hidden;
+}
+
+#code {
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    z-index: 100;
+}
+
+.queen {
+    font-size: 55px; 
+    color: #ffffff;
+    text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff1493, 0 0 40px #ff1493;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.message {
+    font-size: 26px;
+    color: #ffdae0;
+    text-shadow: 0 0 5px #ff69b4;
+    display: block;
+    line-height: 1.8;
+}
+
+canvas {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
